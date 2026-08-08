@@ -3,7 +3,7 @@ terraform {
     bucket         = "my-terraform-state-bucket"
     key            = "terraform_project/terraform.tfstate"
     region         = "us-east-1"
-    use_lockfile = "terraform-lock-table"
+    use_lockfile = "true"
     
   }
 }
